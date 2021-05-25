@@ -1,0 +1,23 @@
+{
+    "name": "cracker-web/framework",
+    "description": "Based on core php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hitesh Kumar",
+            "email": "hgphpdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "cracker-web/cracker-web": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "classmap": [
+            "app/"
+        ]
+    }
+}
