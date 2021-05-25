@@ -2,6 +2,7 @@
     "name": "cracker-web/framework",
     "description": "Based on core php",
     "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hitesh Kumar",
